@@ -61,6 +61,11 @@ header ul {
   border-radius: 5px;
 }
 
+.navbar .active:hover {
+  background-color: rgb(4, 103, 106);
+  color: white;
+}
+
 .heading_section {
   background-image: url(../assets/heading_homepage.jpg);
   height: calc(100vh - 40px - var(--navbar_height));
